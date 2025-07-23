@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+```    **Note:** For this project, we *want* to upload the `data/` folder so that anyone who downloads your project can run it immediately. In a real-world project with large datasets, you would typically add `data/` to your `.gitignore` file.
